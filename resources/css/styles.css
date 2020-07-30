@@ -49,6 +49,7 @@ header img + li {
 
 main section {
     display: block;
+    width: 100%;
 }
 
 /* SECTION ONE */
@@ -110,34 +111,77 @@ section .heading {
     width: 60%;
 }
 
-.section-2 img {
+.info h2 {
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
+.info p {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+section .information {
+    flex-direction: column;
+    align-self: center;
+    width: 40%;
+}
+
+.information {
     width: 100%;
 }
 
-.section-2 h4 {
-    font-size: 48px;
-    margin-bottom: 24px;
+.menu {
+    display: flex;
+    background: white;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+}
+
+.menu img {
+    padding: 16px;
+}
+
+.information img {
+    width: 40%;
+    margin: 16px;
+}
+
+.information .menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.info img {
+    width: 100%;
+}
+
+.information .description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+}
+
+.description h4 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.description link:hover {
+    cursor: auto;
+    text-decoration: underline;
+    color: lightseagreen;
 }
 
 .section-2 p {
     font-size: 18px;
-    margin-bottom: 32px;
-}
-.information {
-    flex-direction: column;
-    align-self: center;
-    align-content: space-around;
-    width: 35%;
+    font-weight: 300;
 }
 
-.information img {
-
+div #guest {
+    background: lightgrey;
 }
 
-.information .menu {
-    flex-direction: row;
-    align-content: space-around;
-    width: 35%;
-}
 
 
