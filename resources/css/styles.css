@@ -51,6 +51,8 @@ main section {
     display: block;
 }
 
+/* SECTION ONE */
+
 .section-1 {
     display: inline-flex;
     background: lightgrey;
@@ -64,20 +66,19 @@ main section {
 }
 
 section .heading {
-    justify-content: flex-start;
     flex-direction: column;
     align-self: center;
-    align-content: center;
+    align-content: space-around;
     width: 30%;
-    margin-left: auto 24px;
 }
 
 .section-1 h1 {
-    font-size: 48px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .section-1 p {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .section-1 img {
@@ -90,5 +91,53 @@ section .heading {
     color: white;
     font-size: 21px;
     font-weight: 300;
-    padding: 8px 80px;
+    padding: 8px 100px;
+    border: none;
+    
 }
+
+/* SECTION TWO */
+
+.section-2 {
+    display: inline-flex;
+    background: white;
+    color: black;
+    flex-direction: row;
+}
+
+.section-2 .info {
+    margin: 32px 24px;
+    width: 60%;
+}
+
+.section-2 img {
+    width: 100%;
+}
+
+.section-2 h4 {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.section-2 p {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.information {
+    flex-direction: column;
+    align-self: center;
+    align-content: space-around;
+    width: 35%;
+}
+
+.information img {
+
+}
+
+.information .menu {
+    flex-direction: row;
+    align-content: space-around;
+    width: 35%;
+}
+
+
