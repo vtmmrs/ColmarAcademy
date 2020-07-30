@@ -47,46 +47,48 @@ header img + li {
     font-weight: 300;
 }
 
-section .intro-container {
-    display: flex;
-    flex-direction: row;
+main section {
+    display: block;
+}
+
+.section-1 {
+    display: inline-flex;
     background: lightgrey;
     color: darkblue;
-}
-
-.intro {
-    display: inline-flex;
     flex-direction: row;
 }
 
-.intro-container .heading {
-    display: flex;
-    flex-direction: column;
-}
-
-.intro-container h1 {
-    font-size: 40px;
-}
-
-.intro-container h4 {
-    font-size: 24px;
-}
-
-.intro-container img {
+.section-1 .banner {
     margin: 32px 24px;
     width: 60%;
 }
 
-.heading {
+section .heading {
     justify-content: flex-start;
     flex-direction: column;
     align-self: center;
-    align-content: space-around;
+    align-content: center;
+    width: 30%;
+    margin-left: auto 24px;
 }
 
-div .btn {
-    display: flex;
+.section-1 h1 {
+    font-size: 48px;
+}
+
+.section-1 p {
+    font-size: 26px;
+}
+
+.section-1 img {
+    width: 100%;
+}
+
+.section-1 .button {
+    justify-content: center;
     background-color: darkblue;
     color: white;
-    padding: 8px 50px;
+    font-size: 21px;
+    font-weight: 300;
+    padding: 8px 80px;
 }
