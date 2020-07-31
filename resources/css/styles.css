@@ -30,7 +30,7 @@ header img + li {
 }
 
 .nav-left {
-    color: black;
+    color: #333333;
     font-size: 24px;
     font-weight: 600;
 }
@@ -57,7 +57,7 @@ main section {
 .section-1 {
     display: inline-flex;
     background: lightgrey;
-    color: darkblue;
+    color: #404040;
     flex-direction: row;
 }
 
@@ -70,7 +70,7 @@ section .heading {
     flex-direction: column;
     align-self: center;
     align-content: space-around;
-    width: 30%;
+    width: 40%;
 }
 
 .section-1 h1 {
@@ -88,11 +88,12 @@ section .heading {
 
 .section-1 .button {
     justify-content: center;
-    background-color: darkblue;
+    background-color: #666666;
     color: white;
     font-size: 21px;
     font-weight: 300;
-    padding: 8px 100px;
+    padding: 8px 25%;
+    border-radius: 4px;
     border: none;
     
 }
@@ -102,85 +103,128 @@ section .heading {
 .section-2 {
     display: inline-flex;
     background: white;
-    color: black;
+    color: #404040;
     flex-direction: row;
+    margin-bottom: 32px;
 }
 
-.section-2 .info {
+.section-2 p {
+    font-size: 18px;
+    line-break: 8px;
+    font-weight: 300;
+}
+
+.section-2 .main {
     margin: 32px 24px;
     width: 60%;
 }
 
-.info h2 {
-    font-size: 42px;
-    margin-bottom: 24px;
-}
-
-.info p {
-    font-size: 18px;
-    margin-bottom: 24px;
-}
-
-section .information {
-    flex-direction: column;
-    align-self: center;
-    width: 40%;
-}
-
-.information {
+.main img {
     width: 100%;
 }
 
-.menu {
+.main h2 {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.main p {
+    font-size: 21px;
+}
+
+section .information {
     display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+    width: 40%;
+    display: inline-flex;
     background: white;
     flex-direction: column;
-    border: 1px solid lightgrey;
 }
 
-.menu img {
-    padding: 16px;
+.section-2 .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
+
+.information .card {
+    display: inline-flex;
+    align-content: center;
+    border: 1px solid lightgrey;
+    padding: 32px 0 16px 16px;
+    width: auto;
+    max-height: 90%;
+    }
 
 .information img {
-    width: 40%;
-    margin: 16px;
-}
-
-.information .menu {
-    display: flex;
-    flex-direction: row;
-}
-
-.info img {
     width: 100%;
 }
 
 .information .description {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: 65%;
+    padding-right: 48px;
+    padding-left: 16px;
+    max-width: 65%;
 }
 
-.description h4 {
-    font-weight: bold;
-    font-size: 32px;
-}
-
-.description link:hover {
+.card link:hover {
     cursor: auto;
     text-decoration: underline;
     color: lightseagreen;
 }
 
-.section-2 p {
-    font-size: 18px;
-    font-weight: 300;
+.card h4 {
+    font-weight: 500;
+    font-size: 32px;
 }
+
 
 div #guest {
     background: lightgrey;
+}
+
+/* SECTION THREE */
+
+.section-3 {
+    background: rgb(234, 235, 236);
+    width: 100%;
+}
+
+section .title {
+    padding-top: 32px;
+}
+
+.learn h1 {
+    text-align: center;
+    color: #404040;
+    font-size: 48px;
+}
+
+.card h2 {
+    color: #404040;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.learn .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px 72px;
+    overflow: hidden;
+}
+
+.learn .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    margin: 32px;
+}
+
+.card .course {
+    padding: 16px 16px 24px 16px;
 }
 
 
