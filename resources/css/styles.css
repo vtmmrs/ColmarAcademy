@@ -72,6 +72,10 @@ section .heading {
     align-content: space-around;
     width: 40%;
 }
+.section-1 div{
+    display: inline-block;
+    position: relative;
+}
 
 .section-1 h1 {
     font-size: 50px;
@@ -227,5 +231,45 @@ section .title {
     padding: 16px 16px 24px 16px;
 }
 
+section .section-3 img {
+    height: auto;
+}
 
 
+
+/* @MEDIA MOBILE */
+@media screen and (max-width: 600px) {
+    section div.banner {
+        grid-template-columns: 1fr;
+    }
+    section.section-2 {
+        background: white;
+    }
+    section.section-3 {
+        background: white;
+    }
+    section.section-3 img {
+        display: none;
+    }
+    section.section-3 h2 {
+    font-size: 26px;
+    }
+    section.section-3 p {
+        display: none;
+    }
+    section.section-3 .container {
+        margin: 16px 16px 32px 16px;
+    }
+    section.section-3 .card {
+        background: lightgray;
+        width: 100%;
+        margin: 4px 16px 4px 16px;
+        padding-left: 16px;
+    }
+}
+/*
+@media screen and (max-width: 1024px) {
+    section.section-3 .container {
+        justify-content: center;
+    }
+*/
